@@ -3,7 +3,7 @@ cask "beeper-desktop-cli" do
   name "beeper-desktop-cli"
   desc "CLI for Beeper Desktop API"
   homepage "https://developers.beeper.com/desktop-api/"
-  version "0.2.0"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "beeper-desktop-cli" do
   on_macos do
     on_intel do
       url "https://github.com/beeper/desktop-api-cli/releases/download/v#{version}/beeper-desktop-cli_#{version}_macos_amd64.zip"
-      sha256 "625046e3e59cd09c1e164b9f31c548786b28a84782cc994d5f0169171cc7c6d8"
+      sha256 "1c5c8d51f3c84c52c6f20e5bad26ecaadae375363146613919f2afb7fe8cbe9a"
     end
     on_arm do
       url "https://github.com/beeper/desktop-api-cli/releases/download/v#{version}/beeper-desktop-cli_#{version}_macos_arm64.zip"
-      sha256 "8a6940deb1e643be1063a7c98bc7764af225af9487a8bda5345998c445f29a2a"
+      sha256 "5762f33fa4948b793dce2b2087a840422c3f52a208b40c03dd75f1dc8dabcb89"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/beeper/desktop-api-cli/releases/download/v#{version}/beeper-desktop-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "b190a2cb2e7d8f4bf0aa3509fbc9a8fd9cc8b5542ce0e0bbd8f4480182028d48"
+      sha256 "c5b9e0088f166c2d776892774cb3dcfcd8952888ea7043478ec74f2610ea9c21"
     end
     on_arm do
       url "https://github.com/beeper/desktop-api-cli/releases/download/v#{version}/beeper-desktop-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "c3002eef341a46effed452373bd48ae9ba6b365e68265b4b57197c765adfc5e9"
+      sha256 "328dfc9e5b85d9090fbd1cbedfcaadb341bb59187a4fab109e9dafc8b7b05ae8"
     end
   end
 
