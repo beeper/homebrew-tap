@@ -15,7 +15,7 @@ class Cli < Formula
   end
 
   def install
-    bin.install "bin/beeper"
+    bin.install "beeper"
   end
 
   test do
