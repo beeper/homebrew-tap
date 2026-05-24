@@ -1,8 +1,8 @@
 class ImessageCli < Formula
   desc "Automate iMessage locally on your Mac"
   homepage "https://github.com/beeper/platform-imessage"
-  url "https://github.com/beeper/platform-imessage/releases/download/v0.23.2/imessage-cli-0.23.2-macos-universal.tar.gz"
-  sha256 "c86493bebd8eb20d4c4e6e5c28f996d045d5528f66f501a1edea04414a857c65"
+  url "https://github.com/beeper/platform-imessage/releases/download/v0.23.4/imessage-cli-0.23.4-macos-universal.tar.gz"
+  sha256 "7893e95244081516032c176bea9c901665a09130b5a52c99c050e0d5aa92eab4"
   license "MIT"
   head "https://github.com/beeper/platform-imessage.git", branch: "main"
 
