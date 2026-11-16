@@ -1,20 +1,20 @@
 class Bbctl < Formula
   desc "Run self-hosted bridges with the Beeper Matrix server"
   homepage "https://github.com/beeper/bridge-manager"
-  version "0.14.0"
+  version "0.15.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
       url "https://github.com/beeper/bridge-manager/releases/download/v#{version}/bbctl-macos-amd64",
           using: :nounzip
-      sha256 "022bc3cb989baaa8e67859cdbce624640cd4cf7d12e996511fe040bd6ec3d527"
+      sha256 "887b8a344c2782c150bb84aecd6c144f5b8d028bf9960622cf497730fb5dbf2c"
     end
 
     on_arm do
       url "https://github.com/beeper/bridge-manager/releases/download/v#{version}/bbctl-macos-arm64",
           using: :nounzip
-      sha256 "b06e094e4a1f1e212d852db512f106a5a707ae5e2571fb3526a041d2fcac096b"
+      sha256 "4ed8dcd4bfda2500fef7258d6109dfc200a9d7a4046c878d9749962d1219671c"
     end
   end
 
@@ -22,13 +22,13 @@ class Bbctl < Formula
     on_intel do
       url "https://github.com/beeper/bridge-manager/releases/download/v#{version}/bbctl-linux-amd64",
           using: :nounzip
-      sha256 "50a73eeac380093bd5a79a1736e7640595dc968aacd37bae6d5b1ac408f909bc"
+      sha256 "ff3091816429d41aeb51871445f8ccd77864ebe479a57a4b4a5981fd5051a73e"
     end
 
     on_arm do
       url "https://github.com/beeper/bridge-manager/releases/download/v#{version}/bbctl-linux-arm64",
           using: :nounzip
-      sha256 "2b15dcc0595ef1194046814dff7bf1daa57d56bddf18d5dbf10221b4c2963a72"
+      sha256 "aea4f129ac1dffd964d1ad8a57bd2d080c969f277666d0aa734b73de7c6f0033"
     end
   end
 
